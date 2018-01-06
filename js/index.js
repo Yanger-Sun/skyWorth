@@ -9,7 +9,7 @@
 		"images/floatTitle.png",
 		"images/endBack.jpg",
 		"images/login.png",
-		"images/EndTitle.png",
+		"images/endTitle.png",
 		"images/EWM.png",
 		"images/floatDeco.png"
 	];	

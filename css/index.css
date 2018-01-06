@@ -183,7 +183,7 @@ video{
   display: none;
 }
 .EndTitle{
-  background: url(../images/EndTitle.png) top center no-repeat;
+  background: url(../images/endTitle.png) top center no-repeat;
   background-size: contain;
 }
 .EWM{
