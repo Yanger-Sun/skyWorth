@@ -56,8 +56,11 @@
 				$(".floatTitle").removeClass("show");
 				$(".beforeTop").fadeOut();
 				$(".beforeBottom").fadeOut();
+				$(".floatBtn").hide();
+				$(".squre01").fadeOut().removeClass("scaleBig")
+				testVideoTimer = setInterval(testVideo,1000);
 			})
-			$(".floatBtn").on("touchmove",function(e){
+			/*$(".floatBtn").on("touchmove",function(e){
 				e.preventDefault(); 
 				if($("video")[0].currentTime >= $("video")[0].duration){
 			 		//alert("视频播放完成")
@@ -87,7 +90,7 @@
 					$(".pressTitle").addClass("show");	
 					$(".floatTitle").addClass("show");	
 				}
-			})
+			})*/
 			
 			
 			function testVideo(){
