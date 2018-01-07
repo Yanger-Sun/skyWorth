@@ -23,7 +23,7 @@
 			
             if (status == "success") {                
 				++num;
-			
+				console.log(document.getElementById('loading').style.display,num)
 				$("#lodingnum").html((num/the_images.length*100).toFixed(0)+"%");				               
             }
         },
